@@ -95,12 +95,12 @@ const setsAndReps = () => {
         do{
             reps = Math.floor(Math.random()* 12); 
         }while(reps < 6); 
-    }
+    } else {
         do{
         set = Math.floor(Math.random()* 5); 
     }while (set < 2 ); 
 
-    return `Do ${set} sets and ${reps} reps of each excesize`; 
+    return `Do ${set} sets and ${reps} reps of each excesize`}; 
 }
 
 
